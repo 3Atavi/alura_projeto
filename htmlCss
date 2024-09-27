@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>projeto alura</title>
+    <style>
+        body{
+            background-color: aqua;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        h1<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>projeto alura</title>
+    <style>
+        body{
+            background-color: aqua;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        h1{
+            background-color: red;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>projeto</h1>
+    <br><br><br>
+
+    <h2>seu nome </h2>
+    <input type="text">
+    <h2>seu email</h2>
+    <input type="text">
+    <button>teste</button>
+</body>
+</html>
+            background-color: red;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>projeto</h1>
+    <br><br><br>
+
+    <h2>seu nome </h2>
+    <input type="text">
+    <h2>seu email</h2>
+    <input type="text">
+    <button>teste</button>
+</body>
+</html>
