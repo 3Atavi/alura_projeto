@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>projeto alura</title>
+    <style>
+        body{
+            background-color: aqua;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        h1{
+            background-color: red;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>projeto</h1>
+    <br><br><br>
+
+    <h2 id="tudo">seu nome </h2>
+    <input type="text">
+    <h2 id="email">seu email</h2>
+    <input type="text">
+    <button>teste</button>
+    <div id="div"></div>
+
+    <script>
+        function adicionar(){
+            const novo = document.createElement("p")
+            novo.textContent = "novo elemento"
+            const container = document.getElementById("container")
+            container.appendChild(novo)
+        }
+        
+    </script>
+</body>
+</html>
