@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Exemplo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            margin: 0;
+        }
+        .card {
+            background: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 10px 0;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #4CAF50;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Página Exemplo</h1>
+    </header>
+
+    <div class="container">
+        <h2>Bem-vindo!</h2>
+        <p>Esta é uma página HTML de exemplo para demonstrar como criar uma estrutura básica com estilo.</p>
+
+        <div class="card">
+            <h3>O que fazemos?</h3>
+            <p>Oferecemos conteúdo de qualidade e recursos interativos para nossos visitantes.</p>
+        </div>
+
+        <div class="card">
+            <h3>Como podemos ajudar?</h3>
+            <p>Estamos aqui para fornecer informações úteis e suporte quando necessário.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Página Exemplo. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
