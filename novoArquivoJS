@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionar Elemento com JS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        .new-element {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Exemplo de Adição de Elemento</h1>
+    <button id="addElementBtn">Adicionar Elemento</button>
+
+    <script>
+        document.getElementById('addElementBtn').addEventListener('click', function() {
+            const newElement = document.createElement('div'); // Cria um novo div
+            newElement.textContent = 'Este é um novo elemento!'; // Define o texto
+            newElement.className = 'new-element'; // Adiciona uma classe para estilização
+            document.body.appendChild(newElement); // Adiciona ao body
+        });
+    </script>
+
+</body>
+</html>
