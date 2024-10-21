@@ -50,6 +50,7 @@
             <h2>Resultado</h2>
             <p id="score"></p>
             <button id="restart-btn">Reiniciar Quiz</button>
+            <img src="https://ciclovivo.com.br/wp-content/uploads/2018/10/iStock-536613027.jpg" alt="image.png">
         </div>
     </div>
     <script>
